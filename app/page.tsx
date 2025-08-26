@@ -9,7 +9,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Deploy Github Pages
+            -- Deploy Github Pages --
           </a>
         </div>
       </main>
