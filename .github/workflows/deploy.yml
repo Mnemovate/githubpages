@@ -5,3 +5,9 @@
     publish_dir: ./out
     publish_branch: gh-pages
     clean: true
+
+- name: Build
+  run: |
+    npm install
+    npm run build
+    npm run export
