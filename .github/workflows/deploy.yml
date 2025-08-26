@@ -31,3 +31,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           publish_branch: gh-pages
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
